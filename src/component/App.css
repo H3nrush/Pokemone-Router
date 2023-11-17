@@ -1,0 +1,28 @@
+.container nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: #00ffa2;
+  border-radius: 100px;
+}
+
+.container nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.container nav ul li .Link {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.container nav ul li .Link:hover {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 200px;
+  font-size: 2vw;
+  background-color: #00fffb;
+}
